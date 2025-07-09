@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesando...</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Un fondo claro para que el texto sea visible */
+        }
+        .login-message {
+            position: absolute; /* Para posicionar el texto con precisión */
+            top: 10px;        /* Distancia desde el borde superior */
+            left: 10px;       /* Distancia desde el borde izquierdo */
+            font-size: 12px;  /* Tamaño pequeño del texto */
+            color: #555;      /* Color de texto discreto pero legible */
+        }
+    </style>
+    <script>
+        // Opcional: Si quieres que esta página redirija automáticamente después de unos segundos.
+        // Por ejemplo, para regresar a la página principal (login) después de 3 segundos.
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "/"; // Puedes cambiar "/" por la URL de tu página de login si es diferente.
+            }, 2000); // Redirige después de 2 segundos. Ajusta este tiempo si lo deseas.
+        };
+    </script>
+</head>
+<body>
+    <div class="login-message">
+        login...
+    </div>
+</body>
+</html>
