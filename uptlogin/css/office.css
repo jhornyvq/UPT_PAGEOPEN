@@ -1,0 +1,19 @@
+/* CSS Document */
+
+.base_ofi {
+	background-image: url(../images/of_base.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.ofi_top_borde {
+	background-image: url(../images/of_top_borde.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.ofi_centro {
+	background-image: url(../images/of_centro.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
